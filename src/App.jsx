@@ -37,10 +37,10 @@ export default function App() {
           </div>
           <div className="flex flex-col">
             <span className="text-xl font-black tracking-wider text-white flex items-center gap-1.5">
-              KINESIS <span className="text-orange-500">PRO</span>
+              APEX <span className="text-orange-500">FORGE</span>
             </span>
             <span className="text-[10px] font-mono text-gray-400 uppercase tracking-widest -mt-1">
-              ApexForge Vision
+              AI Movement Lab
             </span>
           </div>
         </div>
@@ -130,7 +130,7 @@ export default function App() {
               <Crown className="size-6" />
             </div>
 
-            <h3 className="text-2xl font-black text-white mb-2">Kinesis Pro Membership</h3>
+            <h3 className="text-2xl font-black text-white mb-2">ApexForge Pro Membership</h3>
             <p className="text-sm text-gray-300 mb-6">
               Unlock unlimited 3D motion scans, custom GLB anatomy model uploads, and live cloud telemetry syncing.
             </p>

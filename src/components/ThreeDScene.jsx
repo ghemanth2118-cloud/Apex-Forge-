@@ -371,11 +371,11 @@ export default function ThreeDScene({ onStartWorkout }) {
         <div className="bg-black/50 backdrop-blur-2xl p-5 rounded-3xl border border-white/10 shadow-2xl pointer-events-auto transition hover:border-white/20">
           
           <div className="flex items-center justify-between mb-3">
-            <div className="flex items-center gap-1.5 text-xs font-bold text-blue-400 bg-blue-500/10 px-2.5 py-1 rounded-full border border-blue-500/20">
+            <div className="flex items-center gap-1.5 text-xs font-bold text-orange-400 bg-orange-500/10 px-2.5 py-1 rounded-full border border-orange-500/20">
               <ShieldCheck className="size-3.5" />
-              <span>PrimeCare Plus</span>
+              <span>ApexForge Pro</span>
             </div>
-            <span className="text-[10px] font-mono text-gray-400">ID: KP-2026-89</span>
+            <span className="text-[10px] font-mono text-gray-400">ID: AF-2026-89</span>
           </div>
 
           <div className="flex items-center gap-3.5 mb-4">

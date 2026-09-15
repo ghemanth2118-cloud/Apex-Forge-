@@ -436,7 +436,7 @@ export default function WorkoutTracker({ onSessionSaved }) {
           <div className="flex items-center gap-2">
             <span className="inline-block size-3 rounded-full bg-lime-400 animate-pulse"></span>
             <h1 className="text-2xl md:text-3xl font-bold tracking-tight text-white flex items-center gap-2">
-              Kinesis Pro <span className="text-orange-500 text-lg md:text-xl font-medium px-2 py-0.5 rounded-full bg-orange-500/10 border border-orange-500/20">Live Pose AI</span>
+              ApexForge <span className="text-orange-500 text-lg md:text-xl font-medium px-2 py-0.5 rounded-full bg-orange-500/10 border border-orange-500/20">Live Pose AI</span>
             </h1>
           </div>
           <p className="text-sm text-gray-400 mt-1">
