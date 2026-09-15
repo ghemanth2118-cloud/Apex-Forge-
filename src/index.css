@@ -1,0 +1,89 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg-primary: #1c1c1e;
+    --bg-card: #2c2c2e;
+    --bg-card-hover: #3a3a3c;
+    --accent-orange: #f97316;
+    --accent-lime: #a3e635;
+    --accent-cyan: #06b6d4;
+    --text-primary: #ffffff;
+    --text-secondary: #9ca3af;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: #1c1c1e;
+    color: #ffffff;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  #root {
+    width: 100%;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+}
+
+/* Custom scrollbar for sleek modern HUD look */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1c1c1e;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #3a3a3c;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #52525b;
+}
+
+/* Glow effects */
+.glow-lime {
+  box-shadow: 0 0 25px rgba(163, 230, 53, 0.35);
+}
+
+.glow-orange {
+  box-shadow: 0 0 25px rgba(249, 115, 22, 0.35);
+}
+
+.glow-text-lime {
+  text-shadow: 0 0 12px rgba(163, 230, 53, 0.6);
+}
+
+.glow-text-orange {
+  text-shadow: 0 0 12px rgba(249, 115, 22, 0.6);
+}
+
+/* Pulse keyframe */
+@keyframes hud-scan {
+  0% {
+    transform: translateY(0%);
+    opacity: 0.8;
+  }
+  50% {
+    transform: translateY(100%);
+    opacity: 0.3;
+  }
+  100% {
+    transform: translateY(0%);
+    opacity: 0.8;
+  }
+}
+
+.animate-hud-scan {
+  animation: hud-scan 4s ease-in-out infinite;
+}
