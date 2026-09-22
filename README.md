@@ -14,23 +14,34 @@ ApexForge is a high-performance, next-generation fitness web application combini
 
 - 🧬 **Interactive 3D Anatomical Musculoskeletal Model**
   - High-fidelity GLTF 3D anatomical render powered by Three.js & React Three Fiber.
-  - Dynamically highlights active prime movers and stabilizer muscle groups (Biceps, Quads, Pecs, Delts, Core, Glutes) as you exercise.
-  - Orbit controls for 360° biomechanical examination.
+  - Automatic bounding box auto-centering and scaling.
+  - 8 interactive cybernetic hotspots (Cranium, Chest, Deltoids, Core, Quads, Patellar Hinge, Calves, Metatarsals/Toes) linking directly into specialized AI workouts.
+  - Orbit controls for 360° biomechanical examination and GSAP ScrollTrigger multi-stage cinematic descent.
 
 - 👁️ **Computer Vision & Pose Tracking (MediaPipe)**
-  - Real-time landmark joint detection running client-side at up to 60 FPS.
-  - Automatic rep counting with joint angle inflection math.
-  - Form validation with biomechanical warnings for form deviations.
+  - Real-time 33-landmark joint detection running client-side at up to 60 FPS.
+  - Automatic rep counting with joint angle inflection trigonometry across 6 movement patterns (Squats, Curls, Pushups, Deltoid Raises, Core Plank, Jumping Jacks).
+  - Biomechanical warnings for form breakdown (e.g. knee valgus, sagging hips, forward lean).
+
+- ✨ **Looksmaxxing Facial Aesthetic Studio**
+  - Real-time cybernetic facial analysis: Gonial mandibular jaw angle measurement (115°–122°), hunter eye canthal tilt slope vector (+4.2°), and facial thirds proportionality.
+  - Guided myofunctional drills: Mewing & palatal tongue suction, masseter clenches, zygomatic cheekbone lifts, and cervical chin tucks.
+  - Biometric snapshot capture and aesthetic tier classification.
+
+- 🫁 **Pulmonary Lung Capacity & Breathwork Trainer**
+  - Guided diaphragmatic breath pacing: Box Breathing (Navy SEAL 4-4-4-4), 4-7-8 Parasympathetic Reset, and Wim Hof hyper-oxygenation.
+  - Real-time canvas HUD thoracic expansion ring scaling with breath phases.
+  - High-precision VO2 max breath retention stopwatch and cloud energy expenditure logging.
 
 - 🔊 **Live Web Audio Feedback Synthesizer**
-  - Integrated audio cues for rep completion, tempo cadence, and form alerts.
+  - Native zero-latency Web Audio API procedural sound engine with harmonic rep chords, corrective low-frequency form tones, and completion fanfares.
 
-- 📊 **Performance Analytics & Telemetry**
+- 📊 **Performance Analytics & Bento Dashboard**
   - Real-time cadence, workout duration, rep counts, form accuracy, and calorie burning burn-rate algorithms.
-  - Interactive workout logging and history tracking.
+  - Interactive Recharts weekly activity bar charts, live ECG heartbeat monitor simulation, and macronutrient burn dials.
 
 - ☁️ **Cloud Synchronization & Global Deployment**
-  - Full Firebase Cloud Firestore database integration for multi-session sync.
+  - Full Firebase Cloud Firestore database integration with automatic local-storage offline resilience.
   - Production deployment ready via Firebase Hosting.
 
 ---

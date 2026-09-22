@@ -12,13 +12,13 @@ import {
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyB5vwMAoCrYmqI5wussTNtifUlwHYAuxZk",
-  authDomain: "apexforge-e2bc9.firebaseapp.com",
-  projectId: "apexforge-e2bc9",
-  storageBucket: "apexforge-e2bc9.firebasestorage.app",
-  messagingSenderId: "918484462971",
-  appId: "1:918484462971:web:d5cb90f0ab69de0ce4e1de",
-  measurementId: "G-R1TFB7H719"
+  projectId: "kinesispro",
+  appId: "1:834952766565:web:50415ef6a64a229d61128c",
+  storageBucket: "kinesispro.firebasestorage.app",
+  apiKey: "AIzaSyDJHWEeJpxSy5U57Rm_WySyS-X4axSgTmk",
+  authDomain: "kinesispro.firebaseapp.com",
+  messagingSenderId: "834952766565",
+  measurementId: "G-864V0SR3SQ"
 };
 
 // Initialize Firebase
